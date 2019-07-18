@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <style></style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="mycss.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body id="body">
+
+
+
+
+<div class=" ">
+ <h1 class="header"> Calculator</h1>
+  <form name="myform" action="index.html" method="post" >
+     <table id="mytable" border="1px" cellpadding="20px" cellspacing="5px">
+
+         <tr>
+           <td colspan="4">
+             <input  type="text" name="display" value="" disabled>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input  type="button" name="one" value="1" onclick="NumPressed('1')">
+           </td>
+           <td>
+             <input type="button" name="two" value="2" onclick="NumPressed('2')">
+           </td>
+           <td>
+             <input type="button" name="three" value="3"  onclick="NumPressed('3')">
+           </td>
+           <td>
+             <input type="button" name="plus" value="+"  onclick="operatinPerform('+')">
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="button" name="four" value="4"  onclick="NumPressed(4)">
+           </td>
+           <td>
+             <input type="button" name="five" value="5"  onclick="NumPressed(5)">
+           </td>
+           <td>
+             <input type="button" name="six" value="6"  onclick="NumPressed(6)">
+           </td>
+           <td>
+             <input type="button" name="minus" value="-"  onclick="operatinPerform('-')">
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="button" name="seven" value="7"  onclick="NumPressed(7)">
+           </td>
+           <td>
+             <input type="button" name="eight" value="8"  onclick="NumPressed(8)">
+           </td>
+           <td>
+             <input type="button" name="nine" value="9"  onclick="NumPressed(9)">
+           </td>
+           <td>
+             <input type="button" name="into" value="*"  onclick="operatinPerform('*')">
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="button" name="delete" value="c"  onclick="clearDisplay()">
+           </td>
+           <td>
+             <input type="button" name="zero" value="0"  onclick="NumPressed(0)">
+           </td>
+           <td>
+             <input type="button" name="equal" value="="  onclick="operatinPerform('=')">
+           </td>
+           <td>
+             <input type="button" name="div" value="/"  onclick="operatinPerform('/')">
+           </td>
+         </tr>
+     </table>
+
+
+  </form>
+
+ 
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="myscript.js">
+
+</script>
+  </body>
+</html>
